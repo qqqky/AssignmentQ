@@ -1,8 +1,8 @@
 # AssignmentQ
 
  * Entry point to the program is the DisplayController class.
- * The only dependency required is SQLite JDBC library (exact version used is: sqlite-jdbc-3.32.3.2)
- * Program works on Java 8.
+ * The only external dependency required is SQLite JDBC library (exact version used is: sqlite-jdbc-3.32.3.2)
+ * Program works on Java 8 (which includes JavaFX library by default)
  * 
  * Make sure DB is initialized beforehand and is reachable for name "reg.db".
  * Empty blueprint database can easily be initialized by launching the main method of db/DbSetup.java class.
