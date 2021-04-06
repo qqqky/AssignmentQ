@@ -1,6 +1,6 @@
 # AssignmentQ
 
- * Entry entry point to the program is the DisplayController class.
+ * Entry point to the program is the DisplayController class.
  * The only dependency required is SQLite JDBC library (exact version used is: sqlite-jdbc-3.32.3.2)
  * Program works on Java 8.
  * 
