@@ -29,9 +29,9 @@ import dto.ResponseBool;
  * Empty blueprint database can be easily be initialized by launching the main method of db/DbSetup.java class.
  * 
  * Class explanation:
- * 	app/DbModel is the main backend logic class, which is controlled this this class (DisplayController).
- * 	CustomerClient, as the name says is the backend of CustomerGUIController
- * 	SpecialistClient is backend for SpecialistGUIController
+ * 	app/DbModel is the main logic class, which is controlled by this class (DisplayController).
+ * 	CustomerClient, as the name says is the logic representation of CustomerGUIController
+ * 	SpecialistClient is the same, but for SpecialistGUIController
  * 
  * 	Only DisplayController has direct access to DbModel.
  * 
@@ -68,7 +68,7 @@ import dto.ResponseBool;
  *  		That means program currently assumes that, upon initializing the blueprint DB, the main client will be started
  *  		and will stay functioning for the whole work day 
  * 	
- * Therefore, given more time, the focus would be to implement full state recovery and complete communitation with DB
+ * Therefore, given more time, the focus would be to implement full state recovery and complete communication with DB
  * on every aspect (including the clock).
  * 
  * @author qqqky
