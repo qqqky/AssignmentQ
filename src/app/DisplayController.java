@@ -26,7 +26,7 @@ import dto.ResponseBool;
  * It is also the entry point to the program
  * 
  * Make sure DB is initialized beforehand and is reachable for name "reg.db".
- * Empty blueprint database can be easily be initialized by launching the main method of db/DbSetup.java class.
+ * Empty blueprint database can be easily initialized by launching the main method of db/DbSetup.java class.
  * 
  * Class explanation:
  * 	app/DbModel is the main logic class, which is controlled by this class (DisplayController).
