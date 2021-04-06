@@ -40,17 +40,15 @@
  * 
  * The easiest way to view the important contents of the DB is to login any specialist and click "Refresh List".
  * 
- * What is not implemented:
+ * What was not implemented:
  * 
  * Time management was not fully implemented due to time limitations on the project (the clock always starts from
  * 8:55 - representing the beginning of a (nine-to-five) work day).
  * Time only works if no specialist logs in.
  *
- * Specialist's window should definitely contain a current time label as well (but it doesn't yet).
- * Specialist's window should also be keeping track of time (again, it doesn't)
  * Customer's view should have its state saved and be recovered each time a specialist logs in/logs out (but it doesn't)
- * Upon each new launch, Customer's view should be recovered from the current DB's state (it doesn't, always starts from blank slate)
- *
- *  		
+ * Upon each new launch, the initial Customer's view should be recovered from the current DB's state (it doesn't,
+ * always starts from blank slate)
+ *		
  * That means program currently assumes that, upon initializing the blueprint DB, the main client will be started
  * and will stay functioning for the whole work day.
