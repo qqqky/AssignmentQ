@@ -42,7 +42,7 @@
  * Not implemented:
  * 
  * Time management was not fully implemented due to time limitations on the project (the clock always starts from
- * 8:55 - the beginning of the (nine-to-five) work day).
+ * 8:55 - representing the beginning of a (nine-to-five) work day).
  * This time is updated every second (not shown) and is synchronized with the DbModel's class current time, 
  * at least until a specialist logs in.
  * Specialist's window should definitely contain a current time label as well (but it doesn't yet).
