@@ -6,6 +6,7 @@
  * 
  * Make sure DB is initialized beforehand and is reachable for name "reg.db".
  * Empty blueprint database can easily be initialized by launching the main method of db/DbSetup.java class.
+ * (note that reg.db file is also supplied in this repository along with dump file) 
  * 
  * Class explanation:
  * app/DbModel is the main logic class, which is controlled by DisplayController.
