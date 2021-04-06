@@ -39,6 +39,7 @@
  * 		The easiest way to view the important contents of the DB is to login any specialist and click "Refresh List".
  * 
  * Not implemented:
+ * 
  * 		Time management was not fully implemented due to time limitations on the project (the clock always starts from
  *  	8:55 - the beginning of the (nine-to-five) work day).
  *  	This time is updated every second (not shown) and is synchronized with the DbModel's class current time, 
